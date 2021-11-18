@@ -18,7 +18,7 @@ public class Products {
         Integer [] stock = {10, 6, 10};
 
 
-        System.out.println("ID\tNazwa produktu \tCena \t Ilość");
+        System.out.println("ID \tNazwa produktu \t\t Cena \t\t Ilość");
 
         for (int i=0; i < productNames.length; i++) {
             this.products.add(new Product(i+1, productNames[i], productPrice[i], stock[i]));

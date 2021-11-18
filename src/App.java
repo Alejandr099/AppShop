@@ -80,8 +80,8 @@ public class App {
         for (Product prod: products) {
             System.out.println(
                     prod.getProductId() + " - " +
-                            prod.getName() + " " +
-                            prod.getPrice() + " " +
+                            prod.getName() + " \t " +
+                            prod.getPrice() + " \t " +
                             prod.getStock()
             );
         }

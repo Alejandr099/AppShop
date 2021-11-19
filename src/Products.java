@@ -15,7 +15,7 @@ public class Products {
     public void ShowStoreProducts() {
         String [] productNames = {"Acer Predator 21X", "Samsung Z Fold 3", "Rolex Submarine"};
         Double [] productPrice = {3599.00d, 6000.00d, 72900.00d};
-        Integer [] stock = {10, 6, 10};
+        Integer [] stock = {2, 3, 3};
 
 
         System.out.println("ID \tNazwa produktu \t\t Cena \t\t Ilość");
